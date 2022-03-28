@@ -1,0 +1,49 @@
+
+
+.top{
+    margin-top: 2em;
+}
+
+.header{
+    color: crimson;
+    text-align: center;
+    background-color: black;
+}
+
+.headerContactTop{
+    text-align: center;
+    color:crimson;
+    background-color: black;
+}
+
+.headerContactBottom{
+    text-align: center;
+    font-size: medium;
+    color: crimson;
+    background-color: black;
+}
+
+.headerAbout{
+    color: blue;
+    margin-left: 0.5em;
+    margin-right: 1em;
+    display: flex;
+}
+
+.contentAbout{
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    display: flex;
+}
+
+.contactList{
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20%;
+    border-style: groove;
+    border-radius: 2em;
+}
+
