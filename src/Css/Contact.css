@@ -36,3 +36,26 @@
     display: flex;
 }
 
+.contactList{
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20%;
+    border-style: groove;
+    border-radius: 2em;
+}
+
+@media screen and (max-width:400px) {
+    .contactList{
+       max-width: max-content;
+       flex-direction: column;
+    }
+    .contentAbout{
+        margin-top: 0.5em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        display: flex;
+        font-size: small;
+    }
+}
